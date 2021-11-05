@@ -41,18 +41,18 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(177, 74, 33);
+  background-color: rgb(54, 90, 189);
   font-family: "Montserrat", sans-serif;
 }
 
 .background-img {
-  background: linear-gradient(rgba(77, 80, 80, 0.781), rgba(0, 0, 0, 0.7)),
-    url(Strona_img/12.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(30, 53, 53, 0.781), rgba(0, 0, 0, 0.7)),
+    url(Strona_img/6.jpg) center/cover no-repeat;
 }
 
 .background-img-c {
-  background: linear-gradient(rgba(77, 80, 80, 0.781), rgba(0, 0, 0, 0.7)),
-    url(Strona_img/12.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(77, 80, 80, 0.212), rgba(0, 0, 0, 0.7)),
+    url(Strona_img/6.jpg) center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -67,12 +67,13 @@ nav {
 }
 
 .container p {
-  color: aliceblue;
-  font-size: 1.35rem;
+  color: rgb(63, 189, 211);
+  text-shadow: 2px 2px #4b0766;
+  font-size: 2.5rem;
   max-width: 55rem;
   margin: 0 auto;
   margin-bottom: 1.25rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 li {
@@ -80,10 +81,13 @@ li {
 }
 
 .container h1 {
-  text-shadow: 3px 3px #020202;
-  color: rgb(204, 78, 29);
+  text-shadow: 7px 7px #020202;
+  color: rgb(77, 115, 219);
   text-align: center;
   text-justify: inter-word;
+  font-size: 10rem;
+  font-family: "Fruktur", cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container h2,
@@ -93,7 +97,7 @@ h4 {
 }
 
 .logo {
-  width: 25%;
+  width: 23%;
 }
 
 .nav-links {
@@ -187,7 +191,7 @@ h4 {
 
 .card-icon {
   font-size: 28px;
-  background: rgb(177, 74, 33);
+  background: rgb(54, 90, 189);
   width: 60px;
   height: 60px;
   text-align: center;
@@ -198,19 +202,19 @@ h4 {
 
 .card-m:hover .card-icon {
   background: none;
-  color: rgb(177, 74, 33);
+  color: rgb(54, 90, 189);
   transform: scale(1.6);
 }
 
 .card-mp:hover .card-icon {
   background: none;
-  color: rgb(177, 74, 33);
+  color: rgb(54, 90, 189);
   transform: scale(1.6);
 }
 
 .card-p:hover .card-icon {
   background: none;
-  color: rgb(177, 74, 33);
+  color: rgb(54, 90, 189);
   transform: scale(1.6);
 }
 
@@ -284,7 +288,7 @@ h4 {
 .section {
   padding-bottom: 5rem;
   padding: 1rem;
-  background: rgb(177, 74, 33);
+  background: rgb(54, 90, 189);
 }
 
 footer {
