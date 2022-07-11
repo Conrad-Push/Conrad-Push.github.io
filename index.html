@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KebAPP</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+  </head>
+  <body>
+    <!-- Static -->
+    <script src="scripts.js"></script>
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="if(submitted){window.location='https://conrad-push.github.io/bajojajo.html';}"
+    ></iframe>
+    <header>
+      <div class="title">
+        <h1>KebAPP</h1>
+      </div>
+      <div class="logo">
+        <img src="./Images/kebab.png" alt="logo" />
+      </div>
+    </header>
+
+    <!--Form-->
+    <div class="content">
+      <div class="form-title">
+        <h2>Kebab Form</h2>
+        <p>Tylko kilka pól dzieli Cię od świętowania Kebabowego Czwartku!</p>
+      </div>
+
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLScjNXlKtGUddkSinXkFtwzNIkYJZY3VP5KnBEXysFj95XdKMw/viewform"
+        method="post"
+        target="hidden_iframe"
+        onsubmit="submitted=true"
+        class="myform"
+      >
+        <input
+          type="text"
+          placeholder="Imię i nazwisko"
+          name="entry.374025603"
+        /><br />
+        <input
+          type="text"
+          placeholder="Rozmiar: mały/normalny"
+          name="entry.339052290"
+        /><br />
+        <input
+          type="text"
+          placeholder="Rodzaj: ciasto/bułka/servets/zapiekanka"
+          name="entry.1398209294"
+        /><br />
+        <input
+          type="text"
+          placeholder="Mięso: kurczak/wołowina/mieszane"
+          name="entry.1939645569"
+        /><br />
+        <input
+          type="text"
+          placeholder="Sosiwo: łagodny/mieszany/ostry/bardzo ostry"
+          name="entry.1465830822"
+        /><br />
+        <input class="button" type="submit" value="Jazda!" />
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div class="footer-msg">
+      <p>Copyright © Git Pusz FUX Company 2022 All Rights Reserved</p>
+    </div>
+  </footer>
+</html>
